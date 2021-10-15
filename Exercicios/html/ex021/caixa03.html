@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas personalizadas</title>
+    <style>
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            border: 10px solid black;
+            padding: 10px;
+            /*para bordas usando imagem "border-image-source: url("nome do arquivo")*/    
+            border-image-slice: 10;
+            border-image-repeat: repeat;
+            /*shorthand = border-image: url('nome do arquivo') 10 repeat */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, temporibus saepe libero et dolore vitae, explicabo neque distinctio accusantium nobis nulla? Maiores enim impedit dolor necessitatibus, dolores quasi magnam reiciendis!</p>
+</body>
+</html>
