@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-family: serif;
+    box-shadow: 5px 5px 5px rgba(37, 35, 35, 0.521);
+    
+    
+
+}
+
+header > p {
+    font-size: small;
+}
+p {
+    font-family: cursive;
+    padding-left: 10px;
+    padding-top: 100px;
+    font-size: 2em;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
