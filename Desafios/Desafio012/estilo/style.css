@@ -49,6 +49,15 @@ a:hover {
     text-decoration: underline;
 }
 
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+}
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -58,10 +67,15 @@ section {
     font-size: 3vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.imagem > p {
     display: inline-block;
     padding: 10px;
     background-color: rgba(34, 34, 34, 0.349);
+    text-shadow: 2px 1px 0px black;
 }
 
 .normal {
@@ -69,10 +83,12 @@ section.imagem > p {
     color: black;
 }
 
-.imagem {
+section.imagem {
     background-color: rgb(41, 41, 41);
     color: white;
-    background-image: url('imagens/background001.jpg');
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.342);
+    background-size: cover;
+    background-attachment: fixed;
    
 }
 
