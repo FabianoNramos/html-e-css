@@ -13,11 +13,18 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            height: 400px;
         }
 
         td {
             border: 1px solid black;
             padding: 5px;
+            text-align: center; /*<--- alinhamento horizontal, left, center, right*/
+            vertical-align: middle; /*top, middle, bottom*/
+            
+        }
+        .numero {
+            text-align: right;
             
         }
 
@@ -40,7 +47,7 @@
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">300</td>
         </tr>
         <tr>
             <td>A4</td>
